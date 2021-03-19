@@ -1,0 +1,9 @@
+[
+	{
+		"name": "eleChannels",
+		"type": "Element",
+		"locators": [
+			"_.mobile:id=com.ayoba.ayoba:id/channelsTabTitle"
+		]
+	}
+]

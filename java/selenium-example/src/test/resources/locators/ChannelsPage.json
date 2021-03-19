@@ -1,0 +1,16 @@
+[
+	{
+		"name": "eleFindChannels",
+		"type": "Element",
+		"locators": [
+			"_.mobile:id=com.ayoba.ayoba:id/fabMainFragment"
+		]
+	},
+	{
+		"name": "eleDynamicSubribedChannel",
+		"type": "Element",
+		"locators": [
+			"_.mobile://android.widget.TextView[@text='%s']"
+		]
+	}
+]

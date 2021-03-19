@@ -1,0 +1,16 @@
+[
+	{
+		"name": "eleDynamicChannelCategory",
+		"type": "Element",
+		"locators": [
+			"_.mobile://android.widget.TextView[@text='%s']"
+		]
+	}, 	
+	{
+		"name": "eleGoBack",
+		"type": "Element",
+		"locators": [
+			"_.mobile://android.widget.ImageButton[@content-desc='Navigate up']"
+		]
+	}
+]

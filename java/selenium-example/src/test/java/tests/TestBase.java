@@ -31,11 +31,10 @@ public class TestBase {
 		PageObjectHelper.loadPageObject(this);
 	}
 
-	
 	@AfterMethod(alwaysRun = true)
 	public void cleanUp(ITestResult result) {
 		// Driver.quit(result.isSuccess());
-		Driver.quit();
+		//Driver.quit();
 	}
 	
 	public void loadAndroidNativeAppConfig() {

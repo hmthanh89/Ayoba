@@ -17,7 +17,7 @@ import utils.common.Common;
 import utils.common.Constants;
 import utils.helper.Logger;
 
-public class CreatePinTest extends TestBase {
+public class SubscribeChannelTest extends TestBase {
 
 	LoginPage loginPage;
 	GeneralPage generalPage;

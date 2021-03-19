@@ -1,0 +1,16 @@
+[
+	{
+		"name": "eleDynamicSubscriptIcon",
+		"type": "Element",
+		"locators": [
+			"_.mobile://android.widget.TextView[@text='%s']//following-sibling::android.widget.ImageView"
+		]
+	},
+	{
+		"name": "eleGoBack",
+		"type": "Element",
+		"locators": [
+			"_.mobile://android.widget.ImageButton[@content-desc='Navigate up']"
+		]
+	}
+]
